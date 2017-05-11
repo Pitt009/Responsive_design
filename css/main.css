@@ -36,3 +36,39 @@
     height: 500px;
 }
 }
+
+@media(max-width: 670px){
+  body{
+    background-image: url("../img/dawn.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .gato{
+    background-image: url("../img/kitten-large.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+}
+}
+
+@media(max-width: 540px){
+  body{
+    background-image: url("../img/maxresdefault.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .gato{
+    background-image: url("../img/kitten-small.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+}
+}
